@@ -1,0 +1,208 @@
+* {
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+	}
+	body {
+	font-family : "Myriad Pro";
+	font-size : 13px;
+	background-color : #e2e2e2;
+	background-image : url(../pictures/layer.png);
+	background-repeat : repeat-x;
+	}
+	.container {
+	margin : 0 auto;
+	max-width : 920px;
+	}
+	.header .logo {
+	padding : 18px 0;
+	}
+	.header .navigation ul {
+	list-style : none;
+	display : flex;
+	box-shadow : -1px 1px 2px rgb(0, 0, 0, 0.11);
+	border-radius : 12px;
+	}
+	.header .navigation ul li {
+	border : #cccccc solid 1px;
+	flex : 1;
+	border-right : none;
+	}
+	.header .navigation ul li:first-child {
+	border-radius : 10px 0 0 10px;
+	overflow : hidden;
+	}
+	.header .navigation ul li:last-child {
+	border : #cccccc solid 1px;
+	border-radius : 0 10px 10px 0;
+	overflow : hidden;
+	}
+	.header .navigation ul li a {
+	color : #000000;
+	display : block;
+	background : linear-gradient(to bottom, #fff, #e6e6e6);
+	text-decoration : none;
+	font-size : 20px;
+	text-align : center;
+	padding : 17px 0;
+	font-family : "Myriad Pro";
+	}
+	.header .navigation ul li a:hover {
+	background : linear-gradient(to bottom, #4099ac, #308da2);
+	color : #fff;
+	transition : all 0.3s ease;
+	text-shadow : 0 1px 0 rgb(0, 0, 0, 0.5);
+	}
+	.hero {
+	background-image : url(../pictures/hero.png);
+	background-repeat : no-repeat;
+	height : 430px;
+	background-position : left bottom;
+	position : relative;
+	}
+	.hero .texts {
+	position : absolute;
+	top : 125px;
+	right : 40px;
+	text-align : center;
+	}
+	.hero .texts h1 {
+	font-size : 58px;
+	font-weight : bold;
+	letter-spacing : -3px;
+	}
+	.hero .texts h2 {
+	font-size : 40px;
+	font-weight : bold;
+	letter-spacing : -3px;
+	}
+	.hero .texts p {
+	padding-top : 38px;
+	}
+	.hero .texts p a {
+	font-size : 30px;
+	font-weight : bold;
+	text-align : center;
+	border : #3e98ab solid 1px;
+	padding : 10px 22px 15px 23px;
+	background : linear-gradient(to bottom, #4099ac, #308da2);
+	color : #fff;
+	text-shadow : 0 1px 0 rgb(0, 0, 0, 0.3);
+	text-decoration : none;
+	border-radius : 12px;
+	overflow : hidden;
+	}
+	.content {
+	border : #cccccc solid 1px;
+	display : flex;
+	justify-content : space-between;
+	border-top-left-radius : 12px;
+	border-top-right-radius : 12px;
+	overflow : hidden;
+	background-color : #fff;
+	padding-top : 20px;
+	align-items : center;
+	flex-direction : column;
+	border-bottom-left-radius : 10px;
+	border-bottom-right-radius : 10px;
+	border-bottom : 2px solid #ccc;
+	}
+	.content .news {
+	width : 222px;
+	display : inline-block;
+	padding-right : 10px;
+	}
+	.content .news .news_photo img {
+	height : 145px;
+	width : 100%;
+	}
+	.content .news .news_text {
+	padding : 20px 15px;
+	font-family : Arial;
+	font-size : 13px;
+	}
+	.content .news .news_text h3 {
+	font-weight : bold;
+	color : #318ea2;
+	padding-bottom : 5px;
+	font-size : 13px;
+	}
+	.content .news .news_text p {
+	padding-bottom : 17px;
+	font-weight : 400;
+	color : #323232;
+	}
+	.content_info {
+	background-image : linear-gradient(to bottom, #f5f5f5, #f2f2f2);
+	border-top : none;
+	width : 100%;
+	padding-left : 40px;
+	padding-top : 35px;
+	display : flex;
+	}
+	.content_info .info_left {
+	background-image : url(../pictures/content_info.png);
+	background-repeat : no-repeat;
+	position : relative;
+	padding-left : 115px;
+	}
+	.content_info .content_info_left h1 {
+	font-size : 33px;
+	font-weight : 600;
+	font-style : normal;
+	padding-bottom : 35px;
+	color : #000000;
+	}
+	.content_info .content_info_left p {
+	font-family : Arial;
+	font-size : 13px;
+	font-weight : 700;
+	color : #323232;
+	line-height : 17px;
+	}
+	.content_info .content_info_left .info_left p {
+	font-family : Arial;
+	font-weight : 400;
+	color : #323232;
+	line-height : 17px;
+	padding : 18px;
+	}
+	.content_info_left .info_left_choices {
+	flex-wrap : wrap;
+	display: flex;
+	}
+	.choises_left {
+	border-right : 1px solid #ccc;
+	padding-right : 57px;
+	list-style : url(../pictures/arrow_3.png);
+	padding-left : 40px;
+	}
+	.info_left_choices .choises_left ul li a {
+	list-style : none;
+	color : #308da2;
+	font-family : Arial;
+	font-weight : 400;
+	}
+	.choises_right {
+	list-style : url(../pictures/arrow_3.png);
+	padding-left : 45px;
+	}
+	.info_left_choices .choises_right ul li a {
+	list-style : none;
+	color : #308da2;
+	font-family : Arial;
+	font-weight : 400;
+	}
+	.content_info_right {
+	width : 100%;
+	}
+	.content_info_right h1 {
+	font-size : 33px;
+	font-weight : 600;
+	letter-spacing : -2px;
+	}
+	.footer p {
+	margin : 35px 0 35px 0;
+	text-align : center;
+	font-family : Arial;
+	}
